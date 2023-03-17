@@ -15,6 +15,7 @@ Both classes inherit from the ABS.py (Agent-Based Simulation); this file is take
 The simulation can be run for a desired period, which is specified using the datetime Python module. During this time, the spread of COVID-19 is tracked and visualized using the ABS module. 
 The time step for the simulation is adjustable, allowing for a balance between the speed and accuracy of the model. For COVID-19 spread, a time-step equal to 1 minute (60 seconds) is recommended to capture the spread dynamics accurately. This module provides a powerful tool for understanding the dynamics of COVID-19 spread and designing effective intervention strategies to control the spread of contagious diseases in buildings. 
 
+This repository includes the following python modules:
 
 * CoDiSS.py: Main file for simulating the disease spread
 * layout.py: This file creates the office layout for the case study. It helps visualize and plan different scenarios for testing or analysis.
