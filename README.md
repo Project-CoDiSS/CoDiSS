@@ -5,7 +5,7 @@ This Python module provides a tool to simulate the spread of confection disease 
 agents and calculates the quanta inhaled by healthy agents. Based on stochastic calculations, the simulation predicts probable new infections, makes agents infected by chance and continues the simulation based on the agents' new status.
 
 The CoDiss module consists of two main classes: Model and Agent. 
-Both classes inherit from the ABS.py (Agent-Based Simulation); this file is taken from the github repository: 
+Both classes inherit from the general purpose ABS.py (Agent-Based Simulation) developed as AgentBuilt module: 
 	https://github.com/Project-AgentBuilt/AgentBuilt
 
  1) The Model class is responsible for setting up the simulation environment,  including defining the parameters and initial conditions of the simulation. 
@@ -18,6 +18,7 @@ The time step for the simulation is adjustable, allowing for a balance between t
 This repository includes the following python modules:
 
 * CoDiSS.py: Main file for simulating the disease spread
+* ABS.py: From https://github.com/Project-AgentBuilt/AgentBuilt
 * layout.py: This file creates the office layout for the case study. It helps visualize and plan different scenarios for testing or analysis.
 * create_senarios.py: This Python module provides a flexible way to define and test various interventions in an office layout. The module defines different scenarios, such as adding decompression areas, reducing agent cluster sizes in working areas, and shifting agent schedules.
 * case_study_MCS.py: This Python file utilizes the CoDiSS.py and Create_Scenarios modules to simulate and test the effectiveness of different interventions in controlling the spread of infectious diseases. 
