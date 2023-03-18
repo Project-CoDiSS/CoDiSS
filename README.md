@@ -21,6 +21,6 @@ This repository includes the following python modules:
 * ABS.py: transferred rom https://github.com/Project-AgentBuilt/AgentBuilt
 * layout.py: This file creates the office layout for the case study. It helps visualize and plan different scenarios for testing or analysis.
 * create_senarios.py: This Python module provides a flexible way to define and test various interventions in an office layout. The module defines different scenarios, such as adding decompression areas, reducing agent cluster sizes in working areas, and shifting agent schedules.
-* case_study_MCS.py: This Python file utilizes the CoDiSS.py and Create_Scenarios modules to simulate and test the effectiveness of different interventions in controlling the spread of infectious diseases. 
+* case_study_MCS.py: This Python file utilizes the CoDiSS.py and Create_Scenarios.py modules to simulate and test the effectiveness of different interventions in controlling the spread of infectious diseases. 
 * animation.py: This Python file provides an animation of a case study layout, depicting a short periord in the life of the building to showcase how the agents arrive at and leave the building, allowing the user to visualize the movement patterns of the agents throughout the simulation.
 
